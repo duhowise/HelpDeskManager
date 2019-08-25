@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f1512736-c9fa-414d-86ac-f7d332b544dd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:46657/Services/HelpDeskManagerService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HelpDeskManagerService.wsdl" MetadataType="Wsdl" ID="8b59e789-3bd4-4b48-9315-47c7f40427e0" SourceId="1" SourceUrl="http://localhost:46657/Services/HelpDeskManagerService.svc?wsdl" />
+    <MetadataFile FileName="HelpDeskManagerService.xsd" MetadataType="Schema" ID="4036b500-ebb2-488e-af09-17f89d6d0032" SourceId="1" SourceUrl="http://localhost:46657/Services/HelpDeskManagerService.svc?xsd=xsd2" />
+    <MetadataFile FileName="HelpDeskManagerService1.xsd" MetadataType="Schema" ID="79d09d92-e401-4fcd-bead-d45247318b4b" SourceId="1" SourceUrl="http://localhost:46657/Services/HelpDeskManagerService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HelpDeskManagerService.disco" MetadataType="Disco" ID="455f8ead-889a-42c6-a201-e764082b8492" SourceId="1" SourceUrl="http://localhost:46657/Services/HelpDeskManagerService.svc?disco" />
+    <MetadataFile FileName="HelpDeskManagerService2.xsd" MetadataType="Schema" ID="ca870321-193e-4619-b4da-2279449ccc66" SourceId="1" SourceUrl="http://localhost:46657/Services/HelpDeskManagerService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
